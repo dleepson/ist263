@@ -1,0 +1,123 @@
+* {font-family: sans-serif;}
+nav ul {
+  list-style-type: none;
+}
+.page-container {width: 1024px; margin: 0 auto; padding: 0;}
+#logo {width: 150px; height: 150px; float: left; text-align: center;}
+#search {width: 20em; height: 4em; float: right;}
+#search input {width: 17em; height: 3em; float: left;}
+#search-btn {width: 3em; height: 3em; background-color: #ccc; float: right; padding: 0 1em; text-align: center;}
+#search-btn i {padding: 30% 0;}
+#top-panel {margin: 1em 1.5em 1em 1em;}
+#top-banner {background:url(images/W7-lab-banner-background.png) no-repeat;height:320px;}
+#banner-heading {background-color: #fff; margin-left:2em; margin-top: 4em; width: 30%; padding: 0.5em; display: inline-block;}
+#banner-list {padding: 1em;}
+#page-center {margin: 0 2em 0 0;}
+#bottom-row {margin: 1em 0; border-bottom:3px solid #666;}
+#social {padding-left: 1em;}
+.grid-row {padding: 1em 0 1em 1em;}
+#extra-img {float: left; padding: 2em 1em;}
+#extra-img img {float: left;}
+#extra-img p {display: inline-block; margin-left: 1em;}
+li.spaced-list {padding-bottom: 1.5em;}
+header {height: 8em; margin: 1em 0; padding: 0;}
+nav {height: 26px; margin: 1em 0; padding: 10px 0 20px 10px; background-color: #ccc; font-size: 32px;}
+.padded {background-color: #ccc; padding: 1em; margin: .75em 0;}
+#center-right {padding: 1em 0 0 1em; margin: 0;}
+#carousel .col {margin: 1em 0 1em 1em;}
+/* 
+Review the rest of this CSS file and add comments. The goal of the review is to give you an idea of how this file can be
+reused for future class and individual project work.
+
+The comments should detail
+- What does the class do?
+- What will be a good use case of this class?
+
+This class is good for creating a responsive fixed container. This is good for creating a website that will be responsive across all platforms, such as a tablet or phone.
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+This class makes it so it is easy to create a grid layout. I will use this class for my individual project work to organize photographs.
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+This class is also great for creating a grid layout in an easy manner. Columns also create gutters via padding, so I will use this class to organize my text and images in future classes and for my individual project.
+.col {
+  display: flex;
+}
+This class gives meaning to the width of a column. I will use this for spacing on my project and in class.
+.col-1 {
+  flex: 1;
+}
+This class gives meaning to the width of a column. I will use this for spacing on my project and in class.
+.col-2 {
+  flex: 2;
+}
+This class gives meaning to the width of a column. I will use this for spacing on my project and in class.
+.col-3 {
+  flex: 3;
+}
+Responsive class means web pages should not leave out information to fit smaller devices, but rather adapt its content to fit any device. By using a responsive class, in this case the height will adust based on the device and space allocated. I will use this for my project and in class to create responsive code.
+.responsive {
+  width: 100%;
+  height: auto;
+}
+This class gives meaning to the positioning of text and centers it. Considering I am doing a site on coffee, this will be important for my project when I need to space out text.
+.text-center {
+  text-align: center;
+}
+This class gives meaning to the positioning of text and right aligns it. Considering I am doing a site on coffee, this will be important for my project when I need to space out text.
+.text-right {
+  text-align: right;
+}
+The card class creates a small box. In a way, this makes a text box, which is helpful for future classes and my project.
+.card {
+  border: 1px solid #ccc;
+}
+This class gives style to a box, which will help in future class assignments and my project aesthetically.
+.rounded-border {
+  border-radius: 5px;
+}
+This class defines 1 of the 12 columns. This class is helpful for me in terms of allowing to be very detailed in what I want to create. 
+.m-1 {
+  margin: 10px;
+}
+This class defines the margin of the top of a box or card.  This class is helpful for me in terms of allowing to be very detailed in what I want to create. 
+.mt-1 {
+  margin-top: 10px;
+}
+This class defines the margin of the left side of a box or card.  This class is helpful for me in terms of allowing to be very detailed in what I want to create. 
+.ml-1 {
+  margin-left: 10px;
+}
+This class defines the margin of the right side of a box or card.  This class is helpful for me in terms of allowing to be very detailed in what I want to create. 
+.mr-1 {
+  margin-right: 10px;
+}
+This class defines the margin of the bottom side of a box or card.  This class is helpful for me in terms of allowing to be very detailed in what I want to create. 
+.mb-1 {
+  margin-bottom: 10px;
+}
+This class defines the overall padding of a box or card.  This class is helpful for me in terms of allowing to be very detailed in what I want to create. 
+.p-1 {
+  padding: 10px;
+}
+This class defines the overall padding of a box or card.  This class is helpful for me in terms of allowing to be very detailed in what I want to create. 
+.pt-1 {
+  padding-top: 10px;
+}
+This class defines the padding of a box or card on the left side.  This class is helpful for me in terms of allowing to be very detailed in what I want to create. 
+.pl-1 {
+  padding-left: 10px;
+}
+This class defines the padding of a box or card on the right side.  This class is helpful for me in terms of allowing to be very detailed in what I want to create. 
+.pr-1 {
+  padding-right: 10px;
+}
+This class defines the padding of a box or card on the bottom.  This class is helpful for me in terms of allowing to be very detailed in what I want to create. 
+.pb-1 {
+  padding-bottom: 10px;
+}
+#/
