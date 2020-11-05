@@ -1,0 +1,192 @@
+* {font-family: monospace;}
+.page-container {width: 1024px; margin: 0 auto; padding: 0;}
+#logo {width: 150px; height: 150px; float: left; text-align: center;}
+#top-panel {margin: 1em 1.5em 1em 1em;}
+#page-center {margin: 0 2em 0 0;}
+#bottom-row {margin: 1em 0; border-bottom:3px solid #666;}
+
+.header {
+    background-color: #F5DFF6;
+    padding: 20px;
+    text-align: center;
+  }
+
+body {
+  margin: 0
+}
+
+.design-cast {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.member {
+  flex: 1;
+  margin: 1em;
+}
+
+.member img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (max-width:480px) {
+  .member {
+    flex: 0 100%
+  }
+}
+
+{
+  box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 5px;
+}
+.subpage-image-1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.subpage-2-image-4 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.header {height: 8em; margin: 1em 0; padding: 0;}
+.padded {background-color: #ccc; padding: 1em; margin: .75em 0;}
+#center-right {padding: 1em 0 0 1em; margin: 0;}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+nav ul {
+      list-style-type: none;
+      margin: auto;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ecc8f3;
+    }
+    
+nav ul li {
+    display: inline-block;
+    }
+    
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #5fcce0;
+    }
+
+    img {
+        float: left;
+        clear: left;
+    }
+
+.subpage-paragraph-1 {
+  border: solid;
+  border-width: 5px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 450px;
+}
+
+#peaks-coffee img {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.recess-info {
+  border: none;
+  padding: 20px;
+}
+#recess-coffee img {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#saltcity-coffee img {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#saltcity-coffee img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#cafekubal-coffee img {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#hendricks-coffee img {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.cafekubal-info {
+  border: none;
+  padding: 20px;
+}
+
+.hendricks-info {
+  border: none;
+  padding: 20px;
+  padding-right: 20px;
+}
+
+.coffee-breakdown {
+  border: solid;
+  border-width: 5px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 450px;
+}
+
+.milk-choices {
+  border: none;
+  padding: 20px;
+}
+
+.espresso-drinks {
+  border: none;
+  padding: 20px;
+}
+
+.brewed-coffee {
+  border: none;
+  padding: 20px;
+}
